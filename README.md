@@ -55,13 +55,13 @@ This will generate the `main` executable.
 You can run the program with the following syntax:
 
 ```bash
-./main <expected_number_of_planets> <path_to_configuration_file>
+./JerryBoree <numberOfPlanets> <configurationFile>
 ```
 
 Example:
 
 ```bash
-./main 4 config/demo.txt
+./JerryBoree 4 config/demo.txt
 ```
 
 ---
@@ -120,4 +120,4 @@ This project is released under the MIT License – feel free to use it, share it
 
 ## ✍️ Author
 
-Developed by [Dor Benita](https://github.com/dorbenit) as part of an **Advanced C Programming** course, with an emphasis on low-level design, memory management, and modularity.
+Developed by [Dor Benita](https://github.com/dorbenit) as part of an **Advanced  Programming** course, with an emphasis on low-level design, memory management, and modularity.
