@@ -31,7 +31,7 @@ The code demonstrates the use of generic programming in C through the design and
 project/
 ├── src/                    # Core implementation (.c files)
 ├── include/                # Header files (.h)
-├── config/                 # Example input files (text-based)
+├── config/                 # Input files (text-based)
 ├── Makefile                # Build automation
 ├── README.md               # This file
 ```
@@ -61,24 +61,30 @@ You can run the program with the following syntax:
 Example:
 
 ```bash
-./main 6 config/demo.txt
+./main 4 config/demo.txt
 ```
 
 ---
 
-## 🛠️ Sample Configuration Format
+## 🛠️ Example Configuration File
 
 ```
 Planets
-Earth,0.0,0.0,0.0
-Gazorpazorp,5.0,6.0,7.0
+Earth,123.1,8392,99.2
+Gaia,983.223,8521,2312
+Gazorpazorp,85.1,555.5,312
+Pluto,3454.21,124.112,985.445
 
 Jerries
-Jerry-001,Dimension-C137,Earth,75
-    hair:2.0
-    iq:88.3
-Jerry-002,Dimension-J19,Earth,60
-    strength:3.5
+23dF21,C-137,Earth,50
+	Height:166.2
+	LimbsNumber:4
+	Weight:80
+1q456,C-455,Earth,10
+S5d2,V-234,Gaia,99
+	Age:50
+6e45,B-344,Pluto,34
+	LimbsNumber:2
 ```
 
 ---
@@ -108,10 +114,10 @@ Jerry-002,Dimension-J19,Earth,60
 
 ## 📜 License
 
-This project is released under the **MIT License** – feel free to use, share, and extend!
+This project is released under the MIT License – feel free to use it, share it, and adapt it freely with attribution.
 
 ---
 
 ## ✍️ Author
 
-Developed by [Dor Benita](https://github.com/dorbenit) as part of a university data structures course, with an emphasis on low-level design, memory management, and modularity.
+Developed by [Dor Benita](https://github.com/dorbenit) as part of an **Advanced C Programming** course, with an emphasis on low-level design, memory management, and modularity.
